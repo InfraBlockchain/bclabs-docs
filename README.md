@@ -1,3 +1,3 @@
-# newnal-docs
+# infrablockchain-improvement-proposals
 
-This is the documentation repository for protocols, services, and other components utilized in newnal.
+This is the documentation repository for infrablockchain improvement proposals(IIP).
