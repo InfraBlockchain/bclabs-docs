@@ -17,7 +17,7 @@
 
 ## DID Agents (Decentralized Web Node) Topology
 
-![Screen Shot 2022-09-20 at 2.46.34 PM.png](../../../imgs/infra-did-comm/v0.5/Screen_Shot_2022-09-20_at_2.46.34_PM.png)
+![DID-Agents-Topology](../../../imgs/infra-did-comm/v0.5/DID-Agents-Topology.png)
 
 ## JWM message structure
 
@@ -49,7 +49,7 @@
 
 -   Holder Verifier간 WebSocket channel이 연결된 후에는 DIDComm 메세지 표준에 따라 JWE(JWS(JWM))) 포멧으로 encoding된 메세지를 통해 상호간 통신을 수행한다.
 
-![Untitled](../../../imgs/infra-did-comm/v0.5/Untitled.png)
+![JWM](../../../imgs/infra-did-comm/v0.5/JWM.png)
 
 DID Connection이 이루어지는 경우는 아래와 같은 케이스들로 구분됨
 
@@ -62,7 +62,7 @@ DID Connection이 이루어지는 경우는 아래와 같은 케이스들로 구
 -   **Verifier가 DID Connection을 시작**
     -   Verifier 앱/웹에서 Dynamic QR을 생성하고 Holder 앱에서 스캔
 
-![DID-Connection-1.png](../../../imgs/infra-did-comm/v0.5/DID-Connection-1.png)
+![DID-Connection-Initiated-By-Holder](../../../imgs/infra-did-comm/v0.5/DID-Connection-Initiated-By-Holder.png)
 
 -   UML
 
@@ -134,7 +134,7 @@ DID Connection이 이루어지는 경우는 아래와 같은 케이스들로 구
     ==Mutual DID Auth done between HOLDER and VERIFIER, ready to communicate encrypted service-specific messages==
     ```
 
-![DID-Connection-2.png](../../../imgs/infra-did-comm/v0.5/DID-Connection-2.png)
+![DID-Connection-Initiated-By-Verifier](../../../imgs/infra-did-comm/v0.5/DID-Connection-Initiated-By-Verifier.png)
 
 -   UML
 
@@ -304,7 +304,7 @@ DID-Connect-Request message can be encoded and transmitted via QR code, NFC sign
 -   ex) _eJyr5lJQUEorys9VslJQSslMscrMSytKtDIwtAoIdYr3Noy38E51iwj1dgqyzE4uyTVOTUwrNipJL_Q2jqhILizO8ygJKjDKzgpOSXNxC84zrjBJ8lbSAZmZlJ9SCTSzGsgG8jLhTCCnODMFZJuhkX5AhnFwRFlElLdzeKBbfma5v2lggRJYWa0ORGMyskawtoLUEt1MvbzUEiUdmHgiSDw5Py8vNbkEqp0LhGsBiZY65Q%3D%3D_
 -   Sample QR image
 
-![Screen Shot 2022-09-07 at 9.44.49 AM.png](../../../imgs/infra-did-comm/v0.5/Screen_Shot_2022-09-07_at_9.44.49_AM.png)
+![QR-sample](../../../imgs/infra-did-comm/v0.5/QR-sample.png)
 
 ## 1.3 DID-Auth-Init Message
 
@@ -556,7 +556,7 @@ JWE JOSE HEADER
 -   Verifier can request VC list submission to Holder, then Holder submits VC list as VP
 -   VP protocol must be executed after successful DID Connection protocol execution.
 
-![Untitled](../../../imgs/infra-did-comm/v0.5/Untitled%201.png)
+![VP-Protocol](../../../imgs/infra-did-comm/v0.5/VP-Protocol.png)
 
 -   UML
 
@@ -864,7 +864,7 @@ JWE JOSE HEADER
 
 -   Permission VC protocol must be executed after successful DID Connection protocol execution.
 
-![PermissionGrant.png](../../../imgs/infra-did-comm/v0.5/PermissionGrant.png)
+![PermissionGrant](../../../imgs/infra-did-comm/v0.5/PermissionGrant.png)
 
 -   UML
 
