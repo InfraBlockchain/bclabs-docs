@@ -1,14 +1,5 @@
 # InfraDID Agent Communication Protocol V0.5
 
-# Change log
-
--   230413 evan - submit-VC Message : Reject 요건 반영(status 추가)
--   230426 evan - deprecate submit-VC Protocol → add VP Protocol (변경 초안 작성)
--   230428 evan - 명칭, 설명 수정
-    -   VP-Req Message
-        -   Schema → VC-Type 으로 수정 & 설명 보강 (jsonld 용어랑 혼동. == vc defined jsonld IRI)
-    -   Reject-VP(-Res) → Reject-ReqVP(-Res)
-
 # 0. Reference
 
 -   Infra DID : [https://github.com/InfraBlockchain/infra-did-method-specs/blob/main/docs/Infra-DID-method-spec.md](https://github.com/InfraBlockchain/infra-did-method-specs/blob/main/docs/Infra-DID-method-spec.md)
